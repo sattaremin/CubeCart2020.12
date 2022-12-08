@@ -41,60 +41,6 @@ public class CustomerAddAndUpdateBaseClass {
 
 
     public void addCustomers(List<CustomerAddressInfo> customerAddressInfo) throws InterruptedException {
-        //Customer Information
-//        ArrayList<String> title = new ArrayList<>();
-//        title.addAll(Arrays.asList("mr", "mrs", "mr"));
-//
-//        ArrayList<String> firstName = new ArrayList<>();
-//        firstName.addAll(Arrays.asList("Sattar", "Aynigar", "Dolkun"));
-
-//
-//        ArrayList<String> lastName = new ArrayList<>();
-//        lastName.addAll(Arrays.asList("Emin", "Alim", "Tarim"));
-//
-//        ArrayList<String> email = new ArrayList<>();
-//        email.addAll(Arrays.asList("sattaremin@gmail.com" + System.currentTimeMillis(), "AynigarAlim@gmail.com" + System.currentTimeMillis(),
-//                "Dolkun@gmail.com" + System.currentTimeMillis()));
-//
-//        ArrayList<String> phone = new ArrayList<>();
-//        phone.addAll(Arrays.asList("+90 552 715 17 95", "512102521", "84512130"));
-//
-//        ArrayList<String> cellPhone = new ArrayList<>();
-//        cellPhone.addAll(Arrays.asList("222000", "5200", "2525"));
-//
-//        ArrayList<String> newPassword = new ArrayList<>();
-//        newPassword.addAll(Arrays.asList("SASCA252", "cacsa51", "ASCSAC25"));
-//
-//        ArrayList<String> confirmPassword = new ArrayList<>();
-//        confirmPassword.addAll(Arrays.asList("SASCA252", "cacsa51", "ASCSAC25"));
-//
-//        //addressInformation
-//        ArrayList<String> description = new ArrayList<>();
-//        description.addAll(Arrays.asList("IST Sk KD", "TR IS HT", "US NEWYORK S51"));
-//
-//        ArrayList<String> titleAddress = new ArrayList<>();
-//        titleAddress.addAll(Arrays.asList("mr", "mrs", "mr"));
-//
-//        ArrayList<String> first = new ArrayList<>();
-//        first.addAll(Arrays.asList("Sattar", "Aynigar", "Dolkun"));
-//
-//        ArrayList<String> last = new ArrayList<>();
-//        last.addAll(Arrays.asList("Emin", "Alim", "Tarim"));
-//
-//        ArrayList<String> companyName = new ArrayList<>();
-//        companyName.addAll(Arrays.asList("Emin Holding", "Alim Holding", "Tarim Holding"));
-//
-//        ArrayList<String> address = new ArrayList<>();
-//        address.addAll(Arrays.asList("New york", "Amsterdam", "Texas"));
-//
-//        ArrayList<String> townCity = new ArrayList<>();
-//        townCity.addAll(Arrays.asList("AC5", "SC5", "VDF4"));
-//
-//        ArrayList<String> state = new ArrayList<>();
-//        state.addAll(Arrays.asList("New york", "Amsterdam", "Texas"));
-//
-//        ArrayList<String> zipcode = new ArrayList<>();
-//        zipcode.addAll(Arrays.asList("5485dc", "5565A", "542S"));
 
         //Customer actions
         WebElement customerList = driver.findElement(By.linkText("Customer List"));
