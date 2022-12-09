@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ProductsObjectMethodsWeek9 {
 
-    WebDriver driver;
+    static WebDriver driver;
 
     public ProductsObjectMethodsWeek9() {
     }
@@ -20,7 +20,7 @@ public class ProductsObjectMethodsWeek9 {
         this.driver = driver;
     }
 
-    public void openBrowser(String url){
+    public static void openBrowser(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options=new ChromeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
@@ -161,7 +161,7 @@ public class ProductsObjectMethodsWeek9 {
         }
     }
 
-    public void logout(){
+    public static void logout(){
 
         WebElement logout=driver.findElement(By.cssSelector(".fa.fa-sign-out"));
         logout.click();
